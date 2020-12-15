@@ -18,31 +18,38 @@ def alternate(s):
     new_s = set()
     maxNum = 0
 
+    # add characters to set, no duplicate char
     for i in s:
         char.add(i)
 
+    # create pairs for every characters
     for i in char:
         for j in char:
             if j != i:
                 pair_s.append([i, j])
 
+    # generate string contain only 2 characters and add that to new_s
     for i in pair_s:
         temp_s = ""
         for j in range(0, len(s)):
-
             if s[j] == i[0] or s[j] == i[1]:
                 temp_s += s[j]
         new_s.add(temp_s)
 
+    # coppy new_s
     valid_s = new_s.copy()
+
+    # validate strings and remove invalid string from valid_s
     for i in new_s:
         for j in range(0, len(i)):
             if j > 0 and i[j] == i[j - 1]:
                 valid_s.discard(i)
 
+    # if no valid, string return 0
     if len(valid_s) == 0:
         return 0
 
+    # find the longest string and return maxNum
     for i in valid_s:
         if len(i) > maxNum:
             maxNum = len(i)
