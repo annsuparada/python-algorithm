@@ -9,7 +9,7 @@
 
 # Here 'k' is the number of rotations on , and  holds the list of indices to report. First we perform the two rotations: [3,4,5] -> [5,3,4] -> [4,5,3]
 
-Now return the values from the zero-based indices and as indicated in the  array.
+# Now return the values from the zero-based indices and as indicated in the  array.
 
 # a[1] = 5
 # a[2] = 3
