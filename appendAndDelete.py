@@ -29,12 +29,12 @@ def appendAndDelete(s, t, k):
         return 'No'
 
 
-# print(appendAndDelete('asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv',
-#                       'asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv', 20))  # Yes
-# print(appendAndDelete('aaaaaaaaaa', 'aaaaa', 7))  # Yes
-# print(appendAndDelete('zzzzz', 'zzzzzzz', 4))  # Yes
-# print(appendAndDelete('asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv',
-#                       'bsdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv', 100))  # No
-# print(appendAndDelete('y', 'yu', 2))  # No
+print(appendAndDelete('asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv',
+                      'asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv', 20))  # Yes
+print(appendAndDelete('aaaaaaaaaa', 'aaaaa', 7))  # Yes
+print(appendAndDelete('zzzzz', 'zzzzzzz', 4))  # Yes
+print(appendAndDelete('asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv',
+                      'bsdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv', 100))  # No
+print(appendAndDelete('y', 'yu', 2))  # No
 
 print(appendAndDelete('ashley', 'ash', 2))  # No
